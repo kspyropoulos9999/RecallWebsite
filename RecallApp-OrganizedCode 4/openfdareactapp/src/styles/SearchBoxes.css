@@ -1,0 +1,62 @@
+.search-boxes {
+  display: inline-block;
+  width: 65%;
+  text-align: right;
+}
+
+.btn-cont {
+  display: inline-block;
+  width: 30%;
+  text-align: left;
+  margin-left: 20px;
+}
+
+input {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 150px;
+}
+
+select {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 150px;
+}
+
+.fetch-button {
+  background-color: rgb(65, 101, 179);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 200px;
+}
+
+.fetch-button:hover {
+  background-color: rgb(90, 131, 219);
+}
+
+.loading {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.error {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.recall-list {
+  list-style: none;
+  padding: 0;
+}
+
+.divider {
+  border-top: 1px solid #dee2e6;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

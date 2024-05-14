@@ -1,0 +1,37 @@
+.recall-item {
+  display: grid;
+  grid-template-columns: 170px auto;
+  margin: auto;
+  padding: 20px;
+  row-gap: 5px;
+  border-bottom: 1px solid black;
+  width: 70%;
+  justify-content: left;
+  text-align: left;
+}
+
+.pagination {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.pagination button {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.pagination .active {
+  margin-left: 2px;
+  margin-right: 2px;
+  background-color: hsl(222, 61%, 85%);
+}
+
+#label {
+  font-weight: bold;
+}
+main ul li:nth-last-of-type(odd) {
+  background-color: hsl(222, 61%, 85%);
+}
+
+.recall-list {
+  margin-top: 30px auto;
+}

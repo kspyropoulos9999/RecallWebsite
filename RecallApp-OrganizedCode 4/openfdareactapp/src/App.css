@@ -1,0 +1,47 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  background-color: hsl(244, 43%, 20%);
+  background-size: cover;
+}
+
+.wrapper {
+  display: flex;
+  background-color: rgb(217, 224, 241);
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  flex-direction: column;
+  min-height: 80vh;
+  max-height: max-content;
+}
+
+header h1 {
+  color: hsl(244, 43%, 20%);
+  text-align: center;
+  width: 100%;
+}
+
+.home-page {
+  text-align: left;
+  margin: 10px 20px;
+}
+.slide-in {
+  animation: slideIn 0.5s ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
